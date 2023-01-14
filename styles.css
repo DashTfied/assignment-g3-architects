@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* navigation styles */
+header {
+    background-color: rgb(255, 244, 231);
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1450px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 5px;
+    color: #424242;
+}
+
+nav h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+/* banner styles  */
+.banner {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.banner-title {
+    margin-top: 105px;
+    font-weight: 900;
+    font-size: 64px;
+    padding: 5px 350px;
+}
+
+.banner-descr {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 300px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background: #FF900E;
+    padding: 21px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+    max-height: 700px;
+}
+
+/* main first section styles  */
+.quick-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quick-list {
+    display: flex;
+    gap: 25px;
+}
+
+.quick-img {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 100px 10px 5px 350px;
+}
+
+/* #ig1, #ig2{
+grid-row: span 1;
+} */
+.quick-title{
+  margin-bottom: 25px;
+}
+#ql {
+    font-weight: 500;
+font-size: 45px;
+    color: #727272;
+    
+}
+
+#our {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+#ft{
+    color: #FF900E;
+    font-weight: 700;
+font-size: 45px;
+}
+.quick-descr{
+    font-weight: 400;
+font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.quick-info{
+    padding: 350px 300px 300px 10px;
+    
+    
+}
