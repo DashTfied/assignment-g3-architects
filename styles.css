@@ -97,7 +97,7 @@ nav h1 {
     width: 100%;
     height: 100%;
     grid-template-columns: repeat(2, 1fr);
-    padding: 100px 10px 5px 350px;
+    padding: 100px 10px 5px 50px;
 }
 
 /* #ig1, #ig2{
@@ -130,7 +130,71 @@ font-size: 16px;
     margin-bottom: 30px;
 }
 .quick-info{
-    padding: 350px 300px 300px 10px;
-    
-    
-}
+    padding: 250px 50px 300px 0px;
+   }
+   /* main bottom part  */
+   .banner-articles{
+    margin-top: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   }
+   .s-banner-title{
+    font-weight: 700;
+font-size: 45px;
+padding: 20px;
+margin-top: 80px;
+margin-bottom: 15px;
+color: #131313;
+border-left: 5px solid  #FF900E;
+   }
+   .s-banner-descr{
+    font-weight: 400;
+    margin-bottom: 60px;
+font-size: 16px;
+color: #727272;
+   }
+   .article-title{
+    font-weight: 600;
+font-size: 20px;
+margin-top: 55px;
+
+color: #131313;
+
+   }
+   .article-descr{
+    font-weight: 400;
+    margin-bottom: 65px;
+font-size: 16px;
+color: #727272;
+   }
+   .feature-container{
+    display: flex;
+    gap: 35px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1250px;
+   }
+   .banner-btn{
+    background: #FF900E;
+    border: none;
+    border-radius: 5px;
+    padding: 43px 42px;
+    } 
+   .banner-btn h3{
+    font-weight: 700;
+font-size: 65px;
+color: #ffffff;
+   }
+   .banner-btn p{
+    font-weight: 500;
+font-size: 25px;
+color: #ffffff;
+   }
+   .banner-img{
+    position: relative;
+   }
+   .banner-img .banner-btn{
+    position: absolute;
+    left: 40px;
+    top: 850px;
+   }
