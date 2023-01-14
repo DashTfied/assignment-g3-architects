@@ -190,6 +190,7 @@ color: #ffffff;
 font-size: 25px;
 color: #ffffff;
    }
+   /* button positioning  */
    .banner-img{
     position: relative;
    }
@@ -198,3 +199,36 @@ color: #ffffff;
     left: 40px;
     top: 850px;
    }
+   /* some fact section  */
+   .facts{
+    width: 100%;
+    max-width: 550px;
+    text-align: left;
+    margin-top: 250px;
+    margin-left: 430px;
+   }
+   .achieved{
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+   }
+   .awards{
+    padding: 30px 45px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    transition: transform 3s;
+   }
+   .awards:hover{
+    
+    transform: rotate(360deg);
+   }
+.award-h{
+    font-weight: 600;
+font-size: 45px;
+color: #424242;
+}
+.award-desc{
+    font-weight: 600;
+font-size: 20px;
+color: #727272;
+}
